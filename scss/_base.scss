@@ -1,0 +1,81 @@
+
+body{
+    font-family: 'Segoe UI', sans-serif;
+    
+    font-size: 20px;
+}
+
+
+
+*, h1, h2, h3, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+li{
+    list-style: none;
+}
+    
+
+.container {
+    max-width: 1170px;
+    padding: 0 20px;
+    margin-inline: auto;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+button {
+    display: inline-block;
+}
+
+
+
+// Text Settings
+
+.title{
+    color: var(--main-color-title);
+}
+
+.text, .a{
+    color: var(--main-color-text);
+}
+
+.a{
+    font-weight: 700;
+}
+
+
+
+
+
+// Btn Settings
+
+.btn{
+    font-weight: 700;
+
+    padding: 13px 34px;
+    background-color: var(--main-second-bcg-color);
+    color: var(--alt-color-text);
+    border-radius: 8px;
+
+    transition: .4s all ease-in-out;
+    transform: translateY(0px);
+    scale: 1;
+}
+
+
+.btn:hover{
+    transform: translateY(-5px);
+    scale: 1.02;
+}
+
+
+
+
+

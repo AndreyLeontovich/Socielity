@@ -1,0 +1,43 @@
+
+// Colors
+
+:root{
+    
+    --main-bcg-color:#E5E5E5;
+    --alt-bcg-color:#222222;
+
+
+    --main-color-title: #474747;
+    --alt-color-title: #fff; 
+
+    --main-color-text: #666666;
+    --alt-color-text: #fff; 
+
+    --main-second-color: #4579CB;
+    --main-second-bcg-color: #4579CB;
+
+    --alt-second-color: #5987D1;
+}
+
+
+// Fonts
+
+@font-face {
+    font-family: Segoe UI;
+    src: url('/font/SegoeUI/SegoeUI-Bold.woff') format(woff2),
+         url('/font/SegoeUI/SegoeUI-Bold.eot') format(opentype);
+    font-weight: 700;
+    font-style: bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+@font-face {
+    font-family: Segoe UI;
+    src: url('/font/SegoeUI/SegoeUI-Light.ttf') format(woff2),
+         url('/font/SegoeUI/SegoeUI-Light.eot') format(opentype);
+    font-weight: 400;
+    font-style: light;
+    font-stretch: normal;
+    font-variant: normal;
+}

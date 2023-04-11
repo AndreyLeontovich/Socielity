@@ -1,0 +1,38 @@
+.header_block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 24px 0;
+}
+
+
+
+.header_logo{
+    font-weight: 700;
+    font-size: 1.8em;
+    line-height: 48px;
+    color: var(--main-second-color);
+}
+
+
+
+.header_nav{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header_nav_link{
+    font-size: 0.8em;
+
+    transition: all 0.4s ease-in-out;
+    transform: translateY(0);
+}
+
+.header_nav_link:hover{
+    transform: translateY(-5px);
+}
+
+
+
